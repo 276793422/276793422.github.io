@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Document-Summary on Kernel_Security_Research:~$ </title>
+		<link>https://276793422.github.io/tags/document-summary/</link>
+		<description>Recent content in Document-Summary on Kernel_Security_Research:~$ </description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+			<copyright>Root Level Access</copyright>
+		
+		
+			<lastBuildDate>Thu, 16 Jul 2026 00:00:00 +0800</lastBuildDate>
+		
+			<atom:link href="https://276793422.github.io/tags/document-summary/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>2026年7月16日，直播间粉丝抽奖，奖品</title>
+				<link>https://276793422.github.io/posts/2026-07-16-nemesisbot/</link>
+				<pubDate>Thu, 16 Jul 2026 00:00:00 +0800</pubDate>
+				<guid>https://276793422.github.io/posts/2026-07-16-nemesisbot/</guid>
+				<description>&lt;p&gt;起因很简单：粉丝抽奖，一位中奖的老哥，他不要别的奖品，提了一个需求——让我给他写一个工具，能帮他&lt;strong&gt;批量分析一堆文档，然后做总结归纳，最后写一份摘要&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;需求拆开看，其实就是一条流水线：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;把一批文档喂进去；&lt;/li&gt;&#xA;&lt;li&gt;逐个分析、提取要点；&lt;/li&gt;&#xA;&lt;li&gt;把要点归并、去重；&lt;/li&gt;&#xA;&lt;li&gt;最后生成一份总结摘要。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;这种「读一堆东西 → 归纳 → 出结论」的活儿，恰好是 Agent 最擅长的事。所以我没从头造轮子，直接基于 &lt;strong&gt;NemesisBot&lt;/strong&gt; 搭了一个 Agent 工作流：一个 Agent 负责遍历和拆解文档，中间环节做归并，最后一个 Agent 收口写摘要。对使用者是黑盒——把文档丢进工作目录，剩下的交给 Agent 跑就行。&lt;/p&gt;&#xA;&lt;h2 id=&#34;成品&#34;&gt;成品&lt;/h2&gt;&#xA;&lt;p&gt;Windows 版，打包好了，解压即用：&lt;/p&gt;&#xA;&lt;p&gt;&lt;a class=&#34;button&#34; href=&#34;https://276793422.github.io/downloads/nemesisbot.zip&#34; download&gt;📦 下载 nemesisbot.zip（约 24 MB）&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a class=&#34;button&#34; href=&#34;https://www.bilibili.com/video/BV1YbKE6oEcX/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;▶ 讲解视频（B 站）&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;源码开源在 GitHub：&lt;a href=&#34;https://github.com/276793422/NemesisBot_Rust&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;→ NemesisBot_Rust&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;启动方式（仓库 README 里有完整说明）：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 启动网关，浏览器打开 http://127.0.0.1:49000&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;nemesisbot gateway&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;关于-nemesisbot&#34;&gt;关于 NemesisBot&lt;/h2&gt;&#xA;&lt;p&gt;NemesisBot 不只是为了这一个需求做的——它是一个用 Rust 写的本地 AI Agent 平台，带 8 层安全审计体系、工作流引擎、分布式集群，Windows / Linux / macOS / Android 都能跑。这次抽奖需求，只是它一个很典型的应用场景：把「反复读文档 + 总结」这种费时费力的活儿，丢给 Agent 自动跑。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

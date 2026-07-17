@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Categories on Kernel_Security_Research:~$ </title>
-    <link>https://276793422.github.io/categories/</link>
-    <description>Recent content in Categories on Kernel_Security_Research:~$ </description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <copyright>Root Level Access</copyright>
-    <atom:link href="https://276793422.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
+	<channel>
+		<title>Categories on Kernel_Security_Research:~$ </title>
+		<link>https://276793422.github.io/categories/</link>
+		<description>Recent content in Categories on Kernel_Security_Research:~$ </description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+			<copyright>Root Level Access</copyright>
+		
+		
+			<lastBuildDate>Thu, 16 Jul 2026 00:00:00 +0800</lastBuildDate>
+		
+			<atom:link href="https://276793422.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>NemesisBot</title>
+				<link>https://276793422.github.io/categories/nemesisbot/</link>
+				<pubDate>Thu, 16 Jul 2026 00:00:00 +0800</pubDate>
+				<guid>https://276793422.github.io/categories/nemesisbot/</guid>
+				<description></description>
+			</item>
+	</channel>
 </rss>
